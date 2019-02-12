@@ -1,0 +1,51 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+ul, p, h2, h1, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+ul>li {
+  list-style-type: none;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+}
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+i,em {
+  font-style: normal;
+}
+
+button:focus, input[type=button]:focus, textarea:focus {
+  outline: none;
+  border: none;
+  transform: scale(.98);
+  filter: brightness(0.9);
+}

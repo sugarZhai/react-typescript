@@ -1,0 +1,11 @@
+{
+  "presets": ["next/babel", "@zeit/next-typescript/babel"],
+  "plugins": [
+    ["styled-components", {
+        "ssr": true
+    }],
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "transform-class-properties",
+    ["import", { "libraryName": "antd-mobile", "style": "css" }]
+  ]
+}
