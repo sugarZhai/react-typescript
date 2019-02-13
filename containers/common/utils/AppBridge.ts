@@ -38,7 +38,7 @@ class AppBridge {
     title: '',
     desc: '',
     // 设置不支持小程序卡片的情况跳转Url.
-    url: 'https://m.zhongan.com/s/AzUvMj',
+    url: 'https://m.test.com/s/AzUvMj',
     imageUrl: '',
     miniProgramId: 'gh_eff08a032fbb',
     miniProgramPath: '',

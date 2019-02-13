@@ -41,8 +41,8 @@ class CommonStore {
     this.isLogin = getCookie('zaLoginCookieKey') ? true : false
     if (typeof window !== 'undefined') {
       const ua = navigator.userAgent.toLowerCase()
-      if (ua.indexOf('zhonganwebview') > -1) {
-        this.clientEnv = 'zhongan'
+      if (ua.indexOf('testDomain webview') > -1) {
+        this.clientEnv = 'testDomain '
       } else if (ua.indexOf('micromessenger') > -1) {
         this.clientEnv = 'weixin'
       } else {
@@ -63,7 +63,7 @@ class CommonStore {
   }
   setDocumentTitle(title) {
     if (typeof window !== 'undefined') {
-      if (this.clientEnv === 'zhongan') {
+      if (this.clientEnv === 'testDomain ') {
         appBridge.setNavigationBarTitle(title)
       } else {
         document.title = title

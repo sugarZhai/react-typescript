@@ -1,34 +1,34 @@
 const serviceConfig = {
   dev: {
     mipPort: {
-      domain: 'https://mip-test2.zhongan.com'
+      domain: 'https://mip-test2.test.com'
     },
     dmJavaPort: {
-      domain: 'https://mgw-daily.zhongan.com'
+      domain: 'https://mgw-daily.test.com'
     }
   },
   test: {
     mipPort: {
-      domain: 'https://mip-test2.zhongan.com'
+      domain: 'https://mip-test2.test.com'
     },
     dmJavaPort: {
-      domain: 'https://mgw-daily.zhongan.com'
+      domain: 'https://mgw-daily.test.com'
     }
   },
   pre: {
     mipPort: {
-      domain: 'https://mip-uat.zhongan.com'
+      domain: 'https://mip-uat.test.com'
     },
     dmJavaPort: {
-      domain: 'https://gwbk-uat.zhongan.com'
+      domain: 'https://gwbk-uat.test.com'
     }
   },
   prd: {
     mipPort: {
-      domain: 'https://mip.zhongan.com'
+      domain: 'https://mip.test.com'
     },
     dmJavaPort: {
-      domain: 'https://gwbk.zhongan.com'
+      domain: 'https://gwbk.test.com'
     }
   }
 }

@@ -1,7 +1,7 @@
 /*
  * @Author: unknown
  * @Date: 2018-08-22 11:21:02
- * @Last Modified by: Zhang Heng
+ * @Last Modified by: tester
  * @Last Modified time: 2018-10-25 13:13:52
  */
 declare const window: {
@@ -163,7 +163,7 @@ export const isApp = () => {
     return false
   }
   const ua = navigator.userAgent.toLowerCase()
-  if (ua.indexOf('zhonganwebview') > -1) {
+  if (ua.indexOf('testDomain webview') > -1) {
     return true
   } else {
     return false

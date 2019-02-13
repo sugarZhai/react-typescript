@@ -106,7 +106,7 @@ export default class List extends React.Component<any> {
   state = {
     isQuery: false,
     queryTxt: '',
-    searchImg: 'https://tac-cdn.zhongan.com/wxapp/wxapp_traval_ins_in_one/safeguide/images/search.png',
+    searchImg: 'https://zhaishuangshuang292.github.io/storeImg/search.png',
   }
   componentDidMount() {
     if (typeof window !== 'undefined' && this.IsPC()) {

@@ -52,7 +52,7 @@ export function request(options: Options) {
       return resp
     }
     const ua = navigator.userAgent.toLowerCase()
-    if (ua.indexOf('zhonganwebview') === -1) {
+    if (ua.indexOf('testDomain webview') === -1) {
       return resp
     }
     appBridge.getUserToken().then((appRes: any) => {

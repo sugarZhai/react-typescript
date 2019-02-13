@@ -13,7 +13,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.zhonganonline.com:tac_sales/tac-agile-web.git"
+    "url": "git@gitlab.testDomainonline.com:tac_sales/tac-agile-web.git"
   },
   "dependencies": {
     "@babel/core": "7.0.0-beta.51",
@@ -75,6 +75,6 @@
     "next",
     "webpack"
   ],
-  "author": "zhangheng",
+  "author": "tester",
   "license": "ISC"
 }

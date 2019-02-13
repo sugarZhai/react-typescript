@@ -14,7 +14,6 @@ export default class MyDocument extends Document {
     return (
       <html lang="zh">
         <Head>
-          <link rel="dns-prefetch" href="//tac-cdn.zhongan.com" />
           <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover" />
           <link rel="stylesheet" type="text/css" href={`${gwPath}/static/css/common.css`} />
           <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_737420_l8g85k0m7o.css" />
@@ -25,7 +24,6 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script src="//static.zhongan.com/website/public/js/ilog/dist/ilog.min.js" />
           {
             env !== 'prd' ? ([
               <script src="//cdn.jsdelivr.net/npm/eruda"></script>,
