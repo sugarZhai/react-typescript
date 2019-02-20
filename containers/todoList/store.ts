@@ -1,6 +1,4 @@
 import { observable, action } from 'mobx'
-// import { request } from '../common/utils/fetch'
-// import CommonStore from '../store/common'
 
 class GuestStore {
   @observable localCookie = ''// 缓存本地的cookie
