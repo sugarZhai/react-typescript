@@ -9,6 +9,7 @@ if (typeof require !== 'undefined') {
 
 module.exports = withBundleAnalyzer(withTypescript(withCSS({
   useFileSystemPublicRoutes: false,
+  target: "serverless",
   assetPrefix:  `${env === 'prd' ? 'https://dm.zacdn.cn' : ''}${gwPath}`,
   // publicRuntimeConfig: { // Will be available on both server and client
   //   deployEnv: env // Pass through env variables
